@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -49,9 +50,14 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
+main {
+    background-color: beige;
+}    
+
 .main {
     display: flex;
-    margin: 30px;
+    margin: 0px;
+    padding: 50px 0 0 0;
 }
 
 .main div {
@@ -80,15 +86,28 @@ header nav ul li a {
     flex: 1;
     font-size: 36px;
     text-align: center;
-    padding:30px;
+    padding:25px;
     margin-right: 20px;
     border-right: black solid medium;
+    
 }
 
 .boxes {
     display: flex;
     flex: 4;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.boxes .bix-box {
+    width: 70%;
+    margin: 40px;
+    height: 350px;
+}
+
+.boxes div {
+    width: 30%;
+    height: 350px;
+    margin: 50px;
 }
