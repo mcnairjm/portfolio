@@ -80,13 +80,14 @@ main {
     flex: 4;
     font-size: 21px;
     margin: 10px;
+    padding:0 35px 0 35px;
 }
 
 .projects {
     flex: 0 0 1;
     font-size: 36px;
     text-align: center;
-    padding:25px;
+    padding:85px;
     margin-right: 20px;
     border-right: black solid medium;
     
@@ -97,27 +98,51 @@ main {
     flex: 3 3 4;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     
 }
 
 .boxes div {
-    width: 30%;
-    height: 350px;
+    width: 40%;
+    height: 175px;
     margin: 50px;
 }
 
 
-.boxes .big-box {
+.boxes .rb-box {
     width: 70%;
     margin: 40px;
     height: 350px;
     border: black solid medium
 }
 
-.big-box img {
-    max-width: 100%;
-    max-height: 100%;
+.rb-box {
+    background-image: url(./images/hero-bg.jpg);
+    background-size: 900px;
+}
+
+.mark-box {
+    background-image: url(./images/digital-marketing-meeting.jpg);
+    background-size:500px;
+}
+
+.reel-box {
+    background-image: url(./images/moviereel.jpg);
+    background-size: 500px;
+    background-position: 80%;
+}
+
+.robo-box {
+    background-image: url(./images/robot-gladiator.jpg);
+    background-size: 500px;
+    background-position-x: 10%;
+    background-position-y: 50%;
+}
+
+.cane-box {
+    background-image: url(./images/hurricane-tracker.jpg);
+    background-size: 500px;
 }
 
 .reach-out {
@@ -131,9 +156,17 @@ main {
 
 .contact-info {
     display: flex;
-    font-size: 22px;
+    font-size: 28px;
     justify-content: space-between;
+    margin: 10px;
+    padding: 50px;
 }
+
+
+/* Left to do:
+
+- Style projects (hide text and use hover, create shadow)
+- Finish Reach Out Section
 
 
 
