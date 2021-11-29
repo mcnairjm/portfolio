@@ -51,7 +51,6 @@ header nav ul li a:hover {
     height: 400px;
     width: 100%;
     background-image: url(./images/starry.jpg);
-    background-position: cover;
     background-attachment: fixed;
     background-size: 1750px;
     background-position-y: 550px;
@@ -135,8 +134,7 @@ main {
     background-image: url(./images/hero-bg.jpg);
     background-position:center;
     background-size: 1200px;
-    border: rgb(0, 68, 194) solid medium;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -165,8 +163,7 @@ main {
     background-image: url(./images/digital-marketing-meeting.jpg);
     background-size: 800px;
     background-position-y: -125px;
-    border: rgb(0, 68, 194) solid medium;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -191,8 +188,7 @@ main {
     background-position: cover;
     background-size: 600px;
     background-position-y: -125px;
-    border: rgb(0, 68, 194) solid medium;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -217,8 +213,7 @@ main {
     background-size: 500px;
     background-position-x: 10%;
     background-position-y: 50%;
-    border: rgb(0, 68, 194) solid medium;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -242,8 +237,7 @@ main {
     background-image: url(./images/hurricane-tracker.jpg);
     background-size: 600px;
     background-position-y: 30%;
-    border: rgb(0, 68, 194) solid medium;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
 
