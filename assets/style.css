@@ -123,16 +123,16 @@ main {
 }
 
 
-.boxes .rb-box {
+.boxes .cocktail-box {
     width: 66%;
     margin: 40px;
     height: 350px;
 }
 
 
-.rb-box {
-    background-image: url(./images/hero-bg.jpg);
-    background-position:center;
+.cocktail-box {
+    background-image: url(./images/cocktail.jpg);
+    background-position:50% 25%;
     background-size: 1200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
@@ -142,7 +142,7 @@ main {
     font-size: 30px;
  }
 
-.rb-box h3 {
+.cocktail-box h3 {
     text-align: center;
     text-decoration: none;
     margin-top: 150px;
@@ -151,11 +151,11 @@ main {
     display: none;
 }
 
-.rb-box:hover {
+.cocktail-box:hover {
     border: black solid thick;   
 }
 
-.rb-box:hover h3 {
+.cocktail-box:hover h3 {
     display: block;
 }
 
