@@ -131,8 +131,8 @@ main {
 
 
 .cocktail-box {
-    background-image: url(./images/cocktail.jpg);
-    background-position:50% 25%;
+    background-image: url(./images/alleysign2.jpg);
+    background-position:50% 50%;
     background-size: 1200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
@@ -160,9 +160,9 @@ main {
 }
 
 .mark-box {
-    background-image: url(./images/digital-marketing-meeting.jpg);
+    background-image: url(./images/cocktail.jpg);
     background-size: 800px;
-    background-position-y: -125px;
+    background-position-y: -100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 10px 10px;
 }
